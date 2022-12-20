@@ -1,73 +1,95 @@
-:root {
-    --color-primary: #000;
+@font-face {
+  font-family: "Bold";
+  src: local("SFPRODISPLAYBOLD"),
+    url("./fonts/SFPRODISPLAYBOLD.woff") format("woff");
 }
-  
+@font-face {
+  font-family: "Regular";
+  src: local("SFPRODISPLAYREGULAR"),
+    url("./fonts/SFPRODISPLAYREGULAR.woff") format("woff");
+}
+@font-face {
+  font-family: "Light";
+  src: local("SFProDisplay-Light"),
+    url("./fonts/SFProDisplay-Light.woff") format("woff");
+}
+:root {
+  --color-primary: #000;
+}
+
 *,
 *::after,
 *::before {
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Typography */
 
 html {
-font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 img {
-width: 100%;
+  width: 100%;
 }
 
 body {
-font-family: Inter, Arial, Helvetica, sans-serif;
-font-size: 2rem;
-line-height: 1.5;
+  font-family: "Light", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
 }
 
 h1,
 h2,
-h3 {
-margin-bottom: 1rem;
-line-height: 1.1;
+h3,
+h4 {
+  font-family: "Bold", sans-serif;
+  margin-bottom: 1rem;
+  line-height: 1.1;
 }
 
 h1 {
-font-size: 6rem;
+  font-size: 8.3rem;
 }
 
 h2 {
-font-size: 4rem;
+  font-size: 6.2rem;
 }
 
 h3 {
-font-size: 2.8rem;
-font-weight: 600;
-line-height: 1.3;
+  font-size: 4.7rem;
+  line-height: 1.3;
+}
+h4 {
+  font-size: 2.2rem;
 }
 
 p {
-margin-top: 0;
+  margin-top: 0;
 }
 
 @media screen and (min-width: 1024px) {
-body {
+  body {
+    font-size: 2rem;
+  }
+
+  h1 {
+    font-size: 6.3rem;
+  }
+
+  h2 {
+    font-size: 4.2rem;
+  }
+
+  h3 {
+    font-size: 3rem;
+  }
+  h4 {
     font-size: 1.8rem;
-}
-
-h1 {
-    font-size: 8rem;
-}
-
-h2 {
-    font-size: 4rem;
-}
-
-h3 {
-    font-size: 2.4rem;
-}
+  }
 }
 
 /* Links */
 a {
-text-decoration: none;
+  text-decoration: none;
 }
