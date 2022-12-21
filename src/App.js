@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar";
+
+import Hero from "./components/Hero";
+import VitCards from "./components/VitCards";
 import Departments from "./components/Departments";
-import Hero from "./components/Hero"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import './App.css';
@@ -18,6 +20,8 @@ function App() {
         <Router>
             <Navbar />
             <Hero />
+            <VitCards/>
+            <Departments/>
             
             <Routes>
                 <Route path="/" />
