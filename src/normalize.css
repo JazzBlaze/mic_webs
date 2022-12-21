@@ -347,3 +347,8 @@ template {
 [hidden] {
   display: none;
 }
+
+/* Removing Scrollbar */
+::-webkit-scrollbar{
+  display: none;
+}
