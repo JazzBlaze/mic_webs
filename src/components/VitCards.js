@@ -3,35 +3,13 @@ import VitLogo from "../images/vit_logo.png";
 const VitCards = () => {
     return (
         <>
-            {/*         
-        <div class="flex flex-col justify-center h-screen">
-	<div
-		className="relative flex flex-col md:flex-row md:space-x-6 space-y-8 md:space-y-0 rounded-xl shadow-lg p-3 max-w-20xl md:max-w-5xl mx-auto border border-white">
-		<div className="flex flex-row">
-            <div>
-                <h3 className="font-black text-gray-800 md:text-3xl text-xl">VIT. It says it all.</h3>
-                </div>	
-            <div className="flex flex-col space-y-2 p-3">
-				<p className="md:text-lg text-gray-500 text-base">One of India's top engineering schools, 
-            Vellore Institute of Technology equips students with the best exposure 
-            to a top-notch education, internship prospects, lucrative job placement opportunities,
-             and infrastructure amenities. Being one of the top-most clubs in VIT, MIC stands tall!</p>
-             </div>
-
-             <div className="md:w-1/3 flex justify-between item-center p-[2%]">
-                <div>
-                    <img className="" src={VitLogo} alt="VIT LOGO" /></div>
-			 </div>
-             </div>
-		</div>
-	</div> */}
     <section id="VitCards" className="h-[100vh]">
              <div className="flex justify-center py-[10%]">
-                <div className="relative flex flex-col items-center gap-3 space-y-15 md:space-x-15 p-[3%] border-[20px] border-red">
+                <div className="relative flex flex-col items-center gap-10 space-y-15 md:space-x-15 p-[3%]">
                     <div className="flex justify-center">
-                        <div className="relative flex flex-col items-center rounded-[30px] space-y-15 md:space-x-15 shadow-lg p-[3%] w-[100%] md:max-w-[100%] border-[20px] border-grey">
+                        <div className="relative flex flex-col items-center rounded-[30px] space-y-15 md:space-x-15 p-[3%] w-[60%] md:max-w-[100%] shadow-[0_3px_20px_0px_rgba(0,0,0,0.2)]">
                             <div>
-                                <h3 className="font-black text-gray-800 md:text-3xl text-xl">VIT. It says it all.</h3>
+                                <h3 className="font-black text-gray-800 md:text-3xl text-10xl">VIT. It says it all.</h3>
                             </div>
                             <div className="flex flex-col md:flex-row md:space-x-1 space-y-8 md:space-y-0">
                                 <div className="p-[2%]">
@@ -41,9 +19,9 @@ const VitCards = () => {
                                         and infrastructure amenities. Being one of the top-most clubs in VIT, MIC stands tall!</p>
                                 </div>
 
-                                <div className="md:w-1/3 flex justify-between item-center">
+                                <div className="w-[50%] flex justify-between item-center md:pl-[50px]">
                                     <div>
-                                        <img className="px-[40px]" src={VitLogo} alt="VIT LOGO" /></div>
+                                        <img className="" src={VitLogo} alt="VIT LOGO" /></div>
                                 </div>
                             </div>
 
@@ -51,11 +29,11 @@ const VitCards = () => {
                         </div>
                     </div>
 
-                    <div>
+                    <div className="min-w-full">
                         <div className="flex justify-center">
-                            <div className="relative flex flex-col gap-3 space-y-15 md:space-x-15 w-[100%] md:max-w-[100%] mx-auto border-[20px] border-grey">
-                                <div className="flex flex-col md:flex-row md:space-x-6 space-y-8 md:space-y-0 w-[100%]">
-                                    <div className="p-[2%] shadow-lg rounded-[30px]">
+                            <div className="relative flex flex-col space-y-15 md:space-x-15 w-[60%] md:max-w-[100%] mx-auto">
+                                <div className="flex flex-col gap-4 md:flex-row md:space-x-6 space-y-8 md:space-y-0">
+                                    <div className="p-[4%] lg:w-[60%] h-[120%] md:w-[100%] rounded-[30px] shadow-[0_3px_20px_0px_rgba(0,0,0,0.2)]">
                                         <div>
                                             <h3 className="font-black text-gray-800 md:text-3xl text-10xl px-[15%] md:px-[30%]">Collaboration</h3>
 
@@ -63,9 +41,9 @@ const VitCards = () => {
                                         </div>
                                     </div>
 
-                                    <div className="p-[4%]  md:w-1/3 flex shadow-lg justify-between item-center rounded-[30px]">
+                                    <div className="p-[4%] lg:w-[40%] h-[120%] md:w-[100%] rounded-[30px] shadow-[0_3px_20px_0px_rgba(0,0,0,0.2)]">
                                         <div>
-                                            <h3 className="font-black text-gray-800 md:text-3xl text-xl">Proactive</h3>
+                                            <h3 className="font-black text-gray-800 md:text-3xl text-10xl px-[15%] md:px-[30%]">Proactive</h3>
 
                                             <p className="md:text-lg text-gray-500 text-base">Working on Upcoming fields and Innovative approaches to problems</p>
                                         </div>
