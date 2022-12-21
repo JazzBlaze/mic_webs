@@ -7,7 +7,6 @@
 }
 
 .navbar {
-  position: sticky;
   top: 0;
   z-index: 999;
 }
@@ -80,9 +79,10 @@
     opacity: 1;
     transition: all 0.5s ease;
   }
+  
 
   .nav-menu.active {
-    background: #c5c5c5;
+    background: rgba(0, 0, 0, 0.688);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -90,6 +90,7 @@
   }
 
   .nav-links {
+    color: rgb(202, 202, 202);
     text-align: center;
     padding: 2rem;
     width: 100%;
@@ -99,7 +100,7 @@
 
   .nav-links:hover {
     border-bottom: none;
-    color: rgb(77, 77, 77);
+    color: rgb(255, 255, 255);
     transform: scale(1.15);
   }
 

@@ -27,6 +27,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 img {
@@ -45,12 +46,11 @@ h2,
 h3,
 h4 {
   font-family: "Bold", sans-serif;
-  margin-bottom: 1rem;
   line-height: 1.1;
 }
 
 h1 {
-  font-size: 6.3rem;
+  font-size: 6rem;
 }
 
 h2 {
@@ -75,7 +75,7 @@ p {
   }
 
   h1 {
-    font-size: 8.3rem;
+    font-size: 8rem;
   }
   
   h2 {

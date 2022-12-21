@@ -16,7 +16,6 @@ function Navbar() {
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo">
                     <img src={logo} alt=''/>
-                    
                 </Link>
                 
                 <div className='menu-icon' onClick={handleClick}>
@@ -43,10 +42,7 @@ function Navbar() {
                       Contact
                     </Link>
                   </li>
-
-
                 </ul>
-                
             </div>
         </nav>
     </>
