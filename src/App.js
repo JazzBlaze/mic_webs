@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar";
 import Departments from "./components/Departments"
+import VitCards from "./components/VitCards";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import './normalize.css';
@@ -15,6 +16,7 @@ function App() {
         <>
         <Router>
             <Departments/>
+            <VitCards/>
             <Routes>
                 <Route path="/" />
             </Routes>
