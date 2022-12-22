@@ -1,0 +1,43 @@
+.footer-container{
+    background-color: black;
+    height: 20vh;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.get-in-touch{
+    padding: 20px 20px 15px 20px;
+}
+.mic-logo{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.mic-logo > img{
+    width: 68px;
+    height: 68px;
+}
+
+.get-in-touch-icon{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    padding-top: 7px;
+}
+.get-in-touch-icon > a > img{
+    height: 20px;
+    width: 20px;
+}
+
+@media only screen and (max-width: 768px){
+    .footer-container{
+        height: 25vh;
+    }
+    .mic-logo{
+        display: none;
+    }
+    .get-in-touch{
+        padding-left: 5%;
+    }
+}
