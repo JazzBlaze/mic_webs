@@ -1,0 +1,79 @@
+.intro {
+  background-color: rgb(0, 0, 0);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 100px;
+  padding-bottom: 10px;
+}
+.intro-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  grid-template-rows: 2fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "intro-h1 intro-img"
+    "intro-desc intro-desc";
+}
+
+.intro-h1 {
+  grid-area: intro-h1;
+  color: rgb(229, 229, 229);
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.intro-img {
+  grid-area: intro-img;
+  scale: 1.5;
+  margin-left: 50px;
+}
+.intro-desc {
+  grid-area: intro-desc;
+  color: rgb(155, 155, 155);
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+}
+@media screen and (max-width: 900px) {
+  .intro-img {
+    margin-left: 0;
+  }
+  .intro-h1 {
+    margin-left: 60px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .intro-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 1fr 0.8fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "intro-h1"
+      "intro-img"
+      "intro-desc";
+  }
+
+  .intro-h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+
+  .intro-desc {
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 20px;
+  }
+
+  .intro-img {
+    scale: 1;
+    margin-left: 0px;
+  }
+}
