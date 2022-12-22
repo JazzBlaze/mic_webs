@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 
 import Hero from "./components/Hero";
 import VitCards from "./components/VitCards";
+import OurTeams from "./components/OurTeams"
 import Departments from "./components/Departments";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -21,6 +22,7 @@ function App() {
             <Navbar />
             <Hero />
             <VitCards/>
+            <OurTeams/>
             <Departments/>
             
             <Routes>
