@@ -1,3 +1,4 @@
+
 .hero {
   padding-left: 20px;
   padding-right: 20px;
@@ -83,6 +84,7 @@
 
 @media screen and (max-width: 560px) {
   .hero_logo {
+    margin-left: 0px;
     width: 25rem;
     height: 27.155rem;
     scale: 1.3;
