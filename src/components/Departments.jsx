@@ -1,5 +1,13 @@
 import React, { useRef, useEffect } from 'react'
 import './Departments.css'
+import dev from '../images/dev.png'
+import cyber from '../images/cyber.png'
+import cp from '../images/cp.png'
+import ai from '../images/ai.png'
+import video from '../images/video.png'
+import market from '../images/market.png'
+import design from '../images/design.png'
+import content from '../images/content.png'
 
 export default function Departments() {
     const scrollRef = useRef(null)
@@ -12,44 +20,44 @@ export default function Departments() {
                 <div className="title"><h2>Our Departments</h2></div>
                 <div className="department-list">
                     <div className="list-up">
-                        <DepartmentItem name="Web/App Development" icon="images/dev.png" />
-                        <DepartmentItem name="Cyber Security" icon="images/cyber.png" />
-                        <DepartmentItem name="Competitive Programming" icon="images/cp.png" />
-                        <DepartmentItem name="Artificial Intelligence" icon="images/ai.png" />
+                        <DepartmentItem name="Web/App Development" icon={dev}/>
+                        <DepartmentItem name="Cyber Security" icon={cyber} />
+                        <DepartmentItem name="Competitive Programming" icon={cp} />
+                        <DepartmentItem name="Artificial Intelligence" icon={ai} />
                     </div>
                     <div className="list-down" ref={scrollRef}>
-                        <DepartmentItem name="Video Editing" icon="images/video.png" />
-                        <DepartmentItem name="Marketing & PR" icon="images/market.png" />
-                        <DepartmentItem name="Design" icon="images/design.png" />
-                        <DepartmentItem name="Content Writing" icon="images/content.png" />
+                        <DepartmentItem name="Video Editing" icon={video} />
+                        <DepartmentItem name="Marketing & PR" icon={market} />
+                        <DepartmentItem name="Design" icon={design} />
+                        <DepartmentItem name="Content Writing" icon={content} />
                     </div>
                 </div>
                 <div className='department-list-mobile'>
                     <div class="slider">
                         <div class="slides">
                             <div>
-                                <DepartmentItemMobile name="Web/App Development" icon="images/dev.png"/>
+                                <DepartmentItemMobile name="Web/App Development" icon={dev}/>
                             </div>
                             <div>
-                                <DepartmentItemMobile name="Cyber Security" icon="images/cyber.png"/>
+                                <DepartmentItemMobile name="Cyber Security" icon={cyber}/>
                             </div>
                             <div>
-                                <DepartmentItemMobile name="Competitive Programming" icon="images/cp.png"/>
+                                <DepartmentItemMobile name="Competitive Programming" icon={cp}/>
                             </div>
                             <div>
-                                <DepartmentItemMobile name="Artificial Intelligence" icon="images/ai.png"/>
+                                <DepartmentItemMobile name="Artificial Intelligence" icon={ai}/>
                             </div>
                             <div>
-                                <DepartmentItemMobile name="Video Editing" icon="images/video.png"/>
+                                <DepartmentItemMobile name="Video Editing" icon={video}/>
                             </div>
                             <div>
-                                <DepartmentItemMobile name="Marketing & PR" icon="images/market.png"/>
+                                <DepartmentItemMobile name="Marketing & PR" icon={market}/>
                             </div>
                             <div>
-                                <DepartmentItemMobile name="Design" icon="images/design.png"/>
+                                <DepartmentItemMobile name="Design" icon={design}/>
                             </div>
                             <div>
-                                <DepartmentItemMobile name="Content Writing" icon="images/content.png"/>
+                                <DepartmentItemMobile name="Content Writing" icon={content}/>
                             </div>
                         </div>
                     </div>
