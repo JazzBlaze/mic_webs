@@ -117,3 +117,12 @@
     cursor: pointer;
   }
 }
+
+@media screen and (min-width: 1560px) {
+  .navbar{
+    background-size: cover;
+  }
+  .navbar-logo {
+    margin-left: 15%;
+  }
+}

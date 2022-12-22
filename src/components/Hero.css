@@ -2,6 +2,7 @@
 .hero {
   padding-left: 20px;
   padding-right: 20px;
+  
 }
 
 .container {
@@ -110,5 +111,11 @@
   }
   .hero_tagline {
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1560px) {
+  .hero{
+    background-size: cover;
   }
 }
