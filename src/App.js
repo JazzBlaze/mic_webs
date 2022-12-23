@@ -5,6 +5,7 @@ import Stats from "./components/Stats";
 import VitCards from "./components/VitCards";
 import OurTeams from "./components/OurTeams"
 import Departments from "./components/Departments";
+import Events from "./components/Events";
 import Footer from "./components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -48,7 +49,9 @@ function App() {
             <Stats />
             <VitCards/>
             <OurTeams/>
+            <Events/>
             <Departments/>
+            
             <Footer/>
             <Routes>
                 <Route path="/" />
