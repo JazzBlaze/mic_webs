@@ -8,7 +8,7 @@ const OurTeam = () => {
                     <h2 className="flex justify-center m-[30px]">Our Team</h2>
                     <div className="flex flex-row justify-center w-full mt-[30px] mx-[10px] px-[10%]">
 
-                        <div className="flex flex-row justify-center w-[350px] gap-8 rounded-[30px] p-[1%] shadow-[0_3px_20px_0px_rgba(0,0,0,0.2)]">
+                        <div className="flex flex-row justify-center min-w-[350px] w-[350px] gap-8 rounded-[30px] p-[1%] shadow-[0_3px_20px_0px_rgba(0,0,0,0.2)]">
                             <div className="w-[35%]">
                                 <img className="w-[100%] rounded-[30px]" src={OurTeamDetails.president[0].image_url} alt="President pic" onClick={() => (window.open(OurTeamDetails.president[0].linkedIn, '_blank'))} />
                             </div>
@@ -44,7 +44,7 @@ const OurTeamCard = ({ Name, image_url, quote, linkedIn }) => {
     return (<>
         <div className="flex justify-center mt-[30px] mx-[10px]">
 
-            <div className="flex flex-row justify-center w-[350px] gap-8 rounded-[30px] p-[4%] shadow-[0_3px_20px_0px_rgba(0,0,0,0.2)]">
+            <div className="shrink flex flex-row justify-center w-[350px] gap-8 rounded-[30px] p-[4%] shadow-[0_3px_20px_0px_rgba(0,0,0,0.2)]">
                 <div className="w-[35%]">
                     <img className="w-[100%] rounded-[30px]" src={image_url} alt="President pic" onClick={() => (window.open(linkedIn, '_blank'))} />
                 </div>
