@@ -4,7 +4,7 @@ const VitCards = () => {
     return (
         <>
     <section id="VitCards" className="h-[100vh]">
-             <div className="flex justify-center py-[10%]">
+             <div className="flex justify-center py-[5%]">
                 <div className="relative flex flex-col items-center gap-10 space-y-15 md:space-x-15 p-[3%]">
                     <div className="flex justify-center">
                         <div className="relative flex flex-col items-center rounded-[30px] space-y-15 md:space-x-15 p-[3%] w-[60%] md:max-w-[100%] shadow-[0_3px_20px_0px_rgba(0,0,0,0.2)]">

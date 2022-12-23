@@ -3,7 +3,7 @@ import OurTeamDetails from "../OurTeamsDetails";
 const OurTeam = () => {
     return (
         <>
-            <section id="OurTeams" className="h-[300vh]">
+            <section id="OurTeams">
                 <div>
                     <h2 className="flex justify-center m-[30px]">Our Team</h2>
                     <div className="flex flex-row justify-center w-full mt-[30px] mx-[10px] px-[10%]">
