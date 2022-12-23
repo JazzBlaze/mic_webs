@@ -21,13 +21,13 @@
 
 .get-in-touch-icon{
     display: flex;
-    width: 100px;
+    width: 150px;
     justify-content: space-between;
     padding-top: 7px;
 }
 .get-in-touch-icon > a > img{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
 }
 
 @media only screen and (max-width: 768px){
@@ -39,5 +39,18 @@
     }
     .get-in-touch{
         padding-left: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
+    .get-in-touch-title{
+        display: flex;
+        justify-content: center;
+    }
+    .get-in-touch-content{
+        display: flex;
+        text-align: center;
+    }
+    
 }
