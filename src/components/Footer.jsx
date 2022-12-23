@@ -1,8 +1,9 @@
 import React from 'react'
 import "./Footer.css"
-import facebookIcon from '../images/Facebook_logo.svg'
-import instagramIcon from '../images/instagram-logo.svg'
-import twitterIcon from '../images/twitter_logo.svg'
+import location from '../images/location-on.svg'
+import instagramIcon from '../images/instagram-filled.svg'
+import discord from '../images/baseline-discord.svg'
+import mail from '../images/round-mail.svg'
 import micLogo  from '../images/mic-logo.png'
 
 export default function Footer() {
@@ -12,7 +13,7 @@ export default function Footer() {
         <img src={micLogo} />
       </div>
         <div className="get-in-touch">
-            <div className="get-in-touch-tilte">
+            <div className="get-in-touch-title">
               <span><b>Get in touch</b></span>
             </div>
             <div className='get-in-touch-content'>
@@ -20,9 +21,10 @@ export default function Footer() {
               </h6>
             </div>
             <div className='get-in-touch-icon'>
-              <a href='https://www.instagram.com/microsoft.innovations.vitc/'><img src={facebookIcon}/></a>
+              <a href='https://goo.gl/maps/V2m2Ce2Hi5yRDK9E9/'><img src={location}/></a>
               <a href='https://www.instagram.com/microsoft.innovations.vitc/'><img src={instagramIcon} /></a>
-              <a href='https://www.instagram.com/microsoft.innovations.vitc/'><img src={twitterIcon} /></a>
+              <a href='https://discord.gg/c6EAayHHR3/'><img src={discord} /></a>
+              <a href='mailto:micvitcc@gmail.com'><img src={mail} /></a>
             </div>
         </div>
     </div>
