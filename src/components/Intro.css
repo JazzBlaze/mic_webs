@@ -1,5 +1,5 @@
 .intro {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 100px;
@@ -16,38 +16,53 @@
   grid-template-areas:
     "intro-h1 intro-img"
     "intro-desc intro-desc";
+  justify-items: center;
 }
 
 .intro-h1 {
   grid-area: intro-h1;
-  color: rgb(229, 229, 229);
-  margin-top: 50px;
-  margin-left: 20px;
+  color: black;
+  margin-top: 10px;
+  margin-left: 50px;
 }
 
 .intro-img {
   grid-area: intro-img;
-  scale: 1.5;
   margin-left: 50px;
+  width: 30.0rem;
+  height: 29.05rem;
 }
 .intro-desc {
   grid-area: intro-desc;
-  color: rgb(155, 155, 155);
+  color: rgb(36, 36, 36);
   text-align: center;
   margin-left: 150px;
   margin-right: 150px;
   margin-top: 50px;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1016px) {
   .intro-img {
-    margin-left: 0;
+    margin-left: 50px;
+    width: 25.0rem;
+    height: 24.208rem;
+    
   }
   .intro-h1 {
+    margin-top: 20px;
     margin-left: 60px;
   }
 }
 
-@media screen and (max-width: 560px) {
+
+@media screen and (max-width: 784px) {
+  .intro-h1 {
+    margin-top: 0px;
+    margin-left: 60px;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
   .intro-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -63,17 +78,18 @@
   .intro-h1 {
     margin-top: 20px;
     margin-left: 20px;
+    text-align: center;
+    padding-bottom: 60px;
   }
 
   .intro-desc {
     text-align: center;
     margin-left: 25px;
     margin-right: 25px;
-    margin-top: 20px;
+    margin-top: 40px;
   }
 
   .intro-img {
-    scale: 1;
     margin-left: 0px;
   }
 }

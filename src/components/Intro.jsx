@@ -1,5 +1,5 @@
 import './Intro.css';
-import emoji from '../images/emoji.gif';
+import emoji from '../images/emoji.png';
 function Intro () {
     return(
         <>
