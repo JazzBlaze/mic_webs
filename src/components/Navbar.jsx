@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo from "../images/logo.png";
 import bg from '../images/nav_bg.webp';
+import { HashLink as Link } from 'react-router-hash-link';
 
 
 function Navbar() {
@@ -28,17 +28,17 @@ function Navbar() {
                     </Link>
                   </li>
                   <li className='nav-item'>
-                    <Link to={"/about"} className='nav-links' onClick={closeMobileMenu}>
+                    <Link to="#about" smooth className='nav-links' onClick={closeMobileMenu}>
                       About
                     </Link>
                   </li>
                   <li className='nav-item'>
-                    <Link to={"/events"} className='nav-links' onClick={closeMobileMenu}>
+                    <Link to="#events" smooth className='nav-links' onClick={closeMobileMenu}>
                       Events
                     </Link>
                   </li>
                   <li className='nav-item'>
-                    <Link to={"/contact"} className='nav-links' onClick={closeMobileMenu}>
+                    <Link to="#contact" smooth className='nav-links' onClick={closeMobileMenu}>
                       Contact
                     </Link>
                   </li>

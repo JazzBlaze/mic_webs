@@ -67,15 +67,15 @@ function EventCard(props){
     return(
         <div className='event-card' ref={cardRef} onClick={() => handleCardClick()}>
             {isExpanded?(<div className="extended-card">
-                <div className='extended-img'><img src={img}/></div>
+                <div className='extended-img'><img src={img} alt=""/></div>
                 <div className='extended-content'>
                     <div className="extended-title"><span>{title}</span></div>
-                    <div className="extended-mobile-img"><img src={img}/></div>
+                    <div className="extended-mobile-img"><img src={img} alt=""/></div>
                     <div className="extended-desc">{desc}</div>
                 </div>
             </div>):<></>}
             <div className="event-img-small">
-                <img src={eventsImg}></img>
+                <img src={eventsImg} alt=""></img>
             </div>
             <div className="event-title">
                 <span>{title}</span>

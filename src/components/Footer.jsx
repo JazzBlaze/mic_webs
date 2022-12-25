@@ -8,9 +8,9 @@ import micLogo  from '../images/mic-logo.png'
 
 export default function Footer() {
   return (
-    <div className='footer-container'>
+    <div id="contact" className='footer-container'>
       <div className="mic-logo">
-        <img src={micLogo} />
+        <img src={micLogo} alt="" />
       </div>
         <div className="get-in-touch">
             <div className="get-in-touch-title">
@@ -21,10 +21,10 @@ export default function Footer() {
               </h6>
             </div>
             <div className='get-in-touch-icon'>
-              <a href='https://goo.gl/maps/V2m2Ce2Hi5yRDK9E9/'><img src={location}/></a>
-              <a href='https://www.instagram.com/microsoft.innovations.vitc/'><img src={instagramIcon} /></a>
-              <a href='https://discord.gg/c6EAayHHR3/'><img src={discord} /></a>
-              <a href='mailto:micvitcc@gmail.com'><img src={mail} /></a>
+              <a href='https://goo.gl/maps/V2m2Ce2Hi5yRDK9E9/'><img src={location} alt=""/></a>
+              <a href='https://www.instagram.com/microsoft.innovations.vitc/'><img src={instagramIcon} alt="" /></a>
+              <a href='https://discord.gg/c6EAayHHR3/'><img src={discord} alt=""/></a>
+              <a href='mailto:micvitcc@gmail.com'><img src={mail} alt="" /></a>
             </div>
         </div>
     </div>

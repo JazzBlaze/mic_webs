@@ -33,8 +33,8 @@ export default function Departments() {
                     </div>
                 </div>
                 <div className='department-list-mobile'>
-                    <div class="slider">
-                        <div class="slides">
+                    <div className="slider">
+                        <div className="slides">
                             <div>
                                 <DepartmentItemMobile name="Web/App Development" icon={dev}/>
                             </div>
@@ -71,7 +71,7 @@ function DepartmentItem(props) {
     return (
         <div >
             <div className='department-item'>
-                <div className="department-icon"><img src={props.icon} /></div>
+                <div className="department-icon"><img src={props.icon} alt=""/></div>
 
                 <div className='department-name'><h4>{props.name}</h4></div>
             </div>
@@ -83,7 +83,7 @@ function DepartmentItemMobile(props){
     return(
         <div className='department-container-mobile'>
             <div className="department-item-mobile">
-                <div className="department-icon-mobile"><img src={props.icon} /></div>
+                <div className="department-icon-mobile"><img src={props.icon} alt="" /></div>
                 <div className="department-name-mobile"><h3>{props.name}</h3></div>
             </div>
         </div>
