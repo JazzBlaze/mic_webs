@@ -80,7 +80,7 @@ const OurTeamDetails = {
             Name:"Kiranraaj Sekar",
             image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671543619/kiran_dzvwxp.jpg",
             role:"Web dev lead",
-            quote:"",
+            quote:"Linux enthusiast with unhealthy love for rust",
             linkedIn:"https://www.linkedin.com/in/kiranraaj-sekar-a950081b9/" 
         },
         {
