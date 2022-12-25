@@ -13,7 +13,7 @@ const VitCards = () => {
                             </div>
                             <div className="flex flex-col md:flex-row md:space-x-1 space-y-8 md:space-y-0">
                                 <div className="p-[2%]">
-                                    <p className="pt-[5%] text-xl md:text-4xl text-gray-500 text-base">One of India's top engineering schools,
+                                    <p className="pt-[5%] text-xl md:text-4xl text-gray-500">One of India's top engineering schools,
                                         Vellore Institute of Technology equips students with the best exposure
                                         to a top-notch education, internship prospects, lucrative job placement opportunities,
                                         and infrastructure amenities. Being one of the top-most clubs in VIT, MIC stands tall!</p>
@@ -35,7 +35,7 @@ const VitCards = () => {
                                         <div>
                                             <h3 className="font-black text-gray-800 md:text-5xl text-3xl flex justify-center">Collaboration</h3>
 
-                                            <p className="p-[2%] pt-[5%] text-xl md:text-4xl text-gray-500 text-base">An open and iniviting space for developers to pitch in their ideas and suggestions</p>
+                                            <p className="p-[2%] pt-[5%] text-xl md:text-4xl text-gray-500">An open and iniviting space for developers to pitch in their ideas and suggestions</p>
                                         </div>
                                     </div>
 
@@ -43,7 +43,7 @@ const VitCards = () => {
                                         <div>
                                             <h3 className="font-black text-gray-800 text-3xl md:text-5xl flex justify-center">Proactive</h3>
 
-                                            <p className="p-[2%] pt-[5%] text-xl md:text-4xl text-gray-500 text-base">Working on Upcoming fields and Innovative approaches to problems</p>
+                                            <p className="p-[2%] pt-[5%] text-xl md:text-4xl text-gray-500">Working on Upcoming fields and Innovative approaches to problems</p>
                                         </div>
                                     </div>
                                 </div>
