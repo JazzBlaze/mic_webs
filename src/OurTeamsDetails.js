@@ -170,7 +170,7 @@ const OurTeamDetails = {
         {
             Name:"Shashannk S",
             image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978208/MIC_Shashannk_-_Shashannk_S_21BRS1241_kau5n5.jpg",
-            role:"Shashannk S",
+            role:"Marketing & PR",
             quote:"My existence is a scandal for the antagonist",
             linkedIn:"http://www.linkedin.com/in/shashannk-s-316a06236" 
         },
