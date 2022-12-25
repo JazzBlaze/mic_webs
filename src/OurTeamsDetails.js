@@ -4,7 +4,7 @@ const OurTeamDetails = {
             Name:"Dr. Anusha Kannan",
             image_url:"https://res.cloudinary.com/dsolrmyfj/image/upload/v1671513174/Fac_srhdnx.png",
             role:"Associate Professor",
-            quote:"Dedicated and experienced Professor in the Computer Science Department of VIT Chennai. Adept in the field of network security, she received her PhD from VIT Vellore. She is passionate about working with club members and preparing them for their future endeavours.",
+            quote:"Computer Science professor at VIT Chennai. PhD from VIT Vellore in network security. She loves preparing club members for their futures.",
             linkedIn:"",
         }
     ],
@@ -43,7 +43,7 @@ const OurTeamDetails = {
         },
         {
             Name:"Deepthi B",
-            image_url: "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671543627/JointGenSec_ragypk.jpg",
             role:"Joint General Secretary",
             quote:"Learn and Explore!",
             linkedIn:"https://www.linkedin.com/in/deepthibalasubramanian" 
@@ -133,11 +133,11 @@ const OurTeamDetails = {
             linkedIn:"https://www.linkedin.com/in/sahil-sharma-885b04225" 
         },
         {
-            Name:"Varshith R P",
-            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978208/IMG_20220810_131231_Bokeh_polarr_2_-_Varshith_R_P_21BRS1366_fju4e0.jpg",
-            role:"Marketing and PR",
-            quote:"Gregarious!",
-            linkedIn:"https://www.linkedin.com/in/varshith-r-p-82ba15234" 
+            Name:"Appana Jaya Ratna Uttam ",
+            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978208/IMG_20221224_112135_-_Appana_Jaya_Ratna_Uttam_21BCE5766_chdvi5.jpg",
+            role:"Competitive Coding",
+            quote:"All human wisdom is summed up in two words; patience and hope!",
+            linkedIn:"https://www.linkedin.com/in/jayaratnauttam-appana-148562239" 
         },
         {
             Name:"Dharshan S",
@@ -147,11 +147,11 @@ const OurTeamDetails = {
             linkedIn:"https://www.linkedin.com/in/dharshan-shankar-66b01723a" 
         },
         {
-            Name:"Appana Jaya Ratna Uttam ",
-            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978208/IMG_20221224_112135_-_Appana_Jaya_Ratna_Uttam_21BCE5766_chdvi5.jpg",
-            role:"Competitive Coding",
-            quote:"All human wisdom is summed up in two words; patience and hope!",
-            linkedIn:"https://www.linkedin.com/in/jayaratnauttam-appana-148562239" 
+            Name:"Varshith R P",
+            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978208/IMG_20220810_131231_Bokeh_polarr_2_-_Varshith_R_P_21BRS1366_fju4e0.jpg",
+            role:"Marketing and PR",
+            quote:"Gregarious!",
+            linkedIn:"https://www.linkedin.com/in/varshith-r-p-82ba15234" 
         },
         {
             Name:"Anadi Goswami",

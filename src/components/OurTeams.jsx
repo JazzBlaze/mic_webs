@@ -21,9 +21,9 @@ const OurTeam = () => {
                         </div>
                     </div>
 
-                    <div className="flex flex-row justify-center w-full mt-[30px] mx-[10px] px-[10%] gap-10">
+                    <div className="flex flex-row flex-wrap justify-center w-full mt-[30px] mx-[10px] px-[10%] gap-10">
 
-                        <div className="hover:-translate-y-1 hover:scale-110 duration-300 flex flex-row justify-center min-w-[350px] w-[350px] gap-8 rounded-[30px] p-[1%] shadow-[0_3px_20px_0px_rgba(0,0,0,0.2)]" onClick={() => (window.open(OurTeamDetails.president[0].linkedIn, '_blank'))}>
+                        <div className="hover:-translate-y-1 hover:scale-110 duration-300 flex justify-center min-w-[350px] w-[350px] gap-8 rounded-[30px] p-[1%] shadow-[0_3px_20px_0px_rgba(0,0,0,0.2)]" onClick={() => (window.open(OurTeamDetails.president[0].linkedIn, '_blank'))}>
                             <div className="w-[35%]">
                                 <img className="w-[100%] rounded-full" src={OurTeamDetails.president[0].image_url} alt="President pic" />
                             </div>
