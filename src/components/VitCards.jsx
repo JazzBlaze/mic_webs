@@ -3,7 +3,7 @@ import VitLogo from "../images/vit_logo.png";
 const VitCards = () => {
     return (
         <>
-    <section id="about" className="h-[100vh]">
+    <section id="about">
              <div className="flex justify-center py-[5%]">
                 <div className="relative flex flex-col items-center gap-10 space-y-15 md:space-x-15 p-[3%]">
                     <div className="flex justify-center">
