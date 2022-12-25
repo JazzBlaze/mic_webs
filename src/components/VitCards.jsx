@@ -19,7 +19,7 @@ const VitCards = () => {
                                         and infrastructure amenities. Being one of the top-most clubs in VIT, MIC stands tall!</p>
                                 </div>
 
-                                <div className="w-[80%] flex justify-between">
+                                <div className="w-[80%] flex self-center">
                                     <div>
                                         <img className="" src={VitLogo} alt="VIT LOGO" /></div>
                                 </div>
