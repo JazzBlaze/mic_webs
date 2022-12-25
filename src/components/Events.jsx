@@ -1,6 +1,7 @@
 import React,{useState,useEffect,useRef} from 'react'
 import './Events.css'
 import eventsImg from '../images/events-img.png' 
+import close from '../images/close.svg'
 export default function Events() {
   return (
     <section id='events'>
@@ -15,27 +16,7 @@ export default function Events() {
                 <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
                 <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
                 <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
+
             </div>
         </div>
     </section>
@@ -65,8 +46,9 @@ function EventCard(props){
         }
     },[cardRef])
     return(
-        <div className='event-card' ref={cardRef} onClick={() => handleCardClick()}>
+        <div className='event-card' ref={cardRef} >
             {isExpanded?(<div className="extended-card">
+                <div className="close-button"><span  onClick={() => handleOutSideClick()}><img src={close}></img></span></div>
                 <div className='extended-img'><img src={img}/></div>
                 <div className='extended-content'>
                     <div className="extended-title"><span>{title}</span></div>
@@ -74,11 +56,13 @@ function EventCard(props){
                     <div className="extended-desc">{desc}</div>
                 </div>
             </div>):<></>}
+            <div onClick={() => handleCardClick()}>
             <div className="event-img-small">
                 <img src={eventsImg}></img>
             </div>
             <div className="event-title">
                 <span>{title}</span>
+            </div>
             </div>
         </div>
     )

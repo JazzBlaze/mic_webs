@@ -15,7 +15,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: baseline;
-    justify-content: space-around;
 }
 
 .event-card{
@@ -66,6 +65,17 @@
     align-items: center;
 }
 
+.close-button{
+    position: relative;
+    left: 95%;
+    top: -40%;
+}
+
+.close-button > span > img{
+    height: 20px;
+    width: 20px;
+}
+
 .extended-img{
     height: 40vh;
     margin: 30px;
@@ -113,8 +123,13 @@
     }
     .extended-content{
         width: 100%;
+        margin: auto;
     }
     .extended-desc{
         padding: 20px;
+    }
+    .close-button{
+        left: 91%;
+        top: -45%;
     }
 }
