@@ -31,14 +31,18 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+
 }
 
 img {
   width: 100%;
 }
+html,body{
+  overflow-x: hidden;
+}
 
 body {
+  position: relative;
   font-family: "Light", sans-serif;
   font-size: 2rem;
   line-height: 1.5;
