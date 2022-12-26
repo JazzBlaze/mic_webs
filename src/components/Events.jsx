@@ -48,7 +48,6 @@ function EventCard(props){
     return(
         <div className='event-card' ref={cardRef} >
             {isExpanded?(<div className="extended-card">
-                <div className='extended-img'><img src={img} alt=""/></div>
                 <div className="close-button"><span  onClick={() => handleOutSideClick()}><img src={close}></img></span></div>
                 <div className='extended-img'><img src={img} alt=""/></div>
                 <div className='extended-content'>
