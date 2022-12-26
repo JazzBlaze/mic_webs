@@ -4,7 +4,7 @@ const OurTeamDetails = {
             Name:"Dr. Braveen M",
             image_url:"https://res.cloudinary.com/dsolrmyfj/image/upload/v1672034970/WhatsApp_Image_2022-12-26_at_11.37.58_AM_ge4hkc.jpg",
             role:"Associate Professor",
-            quote:"Computer Science professor at VIT Chennai. PhD from VIT Vellore in network security. She loves preparing club members for their futures.",
+            quote:"As the mentor and faculty coordinator for the club, Sir is dedicated to guiding and supporting the next generation of leaders.",
             linkedIn:"",
         },
         {
