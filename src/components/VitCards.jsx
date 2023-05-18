@@ -8,12 +8,12 @@ const VitCards = () => {
                 <div className="relative flex flex-col items-center gap-10 space-y-15 md:space-x-15 p-[3%]">
                     <div className="flex justify-center">
                         <div className="relative flex flex-col items-center rounded-[30px] space-y-15 md:space-x-15 p-[3%] w-[60%] md:max-w-[100%] shadow-[0_3px_20px_0px_rgba(0,0,0,0.2)]" data-aos="zoom-in-up">
-                            <div>
-                                <h3 className="font-black text-gray-800 ">VIT. It says it all.</h3>
+                            <div className="p-[2%]">
+                                <h3 className="font-black text-center text-gray-800 ">VIT. It says it all.</h3>
                             </div>
                             <div className="flex flex-col md:flex-row md:space-x-1 space-y-8 md:space-y-0">
                                 <div className="p-[2%]">
-                                    <p className="pt-[5%] text-xl md:text-4xl text-gray-500">One of India's top engineering schools,
+                                    <p className="text-center text-xl md:text-4xl text-gray-500">One of India's top engineering schools,
                                         Vellore Institute of Technology equips students with the best exposure
                                         to a top-notch education, internship prospects, lucrative job placement opportunities,
                                         and infrastructure amenities. Being one of the top-most clubs in VIT, MIC stands tall!</p>
