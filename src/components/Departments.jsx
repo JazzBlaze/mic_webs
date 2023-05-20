@@ -8,6 +8,7 @@ import video from '../images/video.png'
 import market from '../images/market.png'
 import design from '../images/design.png'
 import content from '../images/content.png'
+import ui from '../images/ui-ux.png'
 
 export default function Departments() {
     const scrollRef = useRef(null)
@@ -23,6 +24,7 @@ export default function Departments() {
                         <DepartmentItem name="Web/App Development" icon={dev}/>
                         <DepartmentItem name="Cyber Security" icon={cyber} />
                         <DepartmentItem name="Competitive Programming" icon={cp} />
+                        <DepartmentItem name="UI/UX" icon={ui} />
                         <DepartmentItem name="Artificial Intelligence" icon={ai} />
                     </div>
                     <div className="list-down" ref={scrollRef}>
@@ -43,6 +45,9 @@ export default function Departments() {
                             </div>
                             <div>
                                 <DepartmentItemMobile name="Competitive Programming" icon={cp}/>
+                            </div>
+                            <div>
+                                <DepartmentItemMobile name="UI/UX" icon={ui}/>
                             </div>
                             <div>
                                 <DepartmentItemMobile name="Artificial Intelligence" icon={ai}/>

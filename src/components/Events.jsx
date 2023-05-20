@@ -1,7 +1,9 @@
 import React,{useState,useEffect,useRef} from 'react'
 import './Events.css'
-import eventsImg from '../images/events-img.png' 
 import close from '../images/close.svg'
+
+import eventList from '../eventDetails'
+
 export default function Events() {
   return (
     <section id='events'>
@@ -10,13 +12,7 @@ export default function Events() {
                 <h2>Events</h2>
             </div>
             <div className="events-list">
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-                <EventCard title="Hackathon" img={eventsImg} desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima aliquid, necessitatibus sequi blanditiis cumque culpa nostrum, provident laborum cupiditate ad, voluptates commodi autem libero quia suscipit consequuntur eius amet beatae."/>
-
+                {eventList.map(ele => <EventCard title={ele.title} link={ele.link} date={ele.date} time={ele.time} fee={ele.fee} venue={ele.venue} img={ele.img} desc={ele.desc}/>)}
             </div>
         </div>
     </section>
@@ -24,12 +20,11 @@ export default function Events() {
 }
     
 function EventCard(props){
-    const {title,img,desc} = props;
+    const {title,img,desc,date,time,venue,link,fee} = props;
     const [isExpanded, setIsExpanded] = useState(false);
     const handleCardClick = () => {
         setIsExpanded(true);
       };
-
     const handleOutSideClick = () => {
         setIsExpanded(false)
     }
@@ -54,11 +49,20 @@ function EventCard(props){
                     <div className="extended-title"><span>{title}</span></div>
                     <div className="extended-mobile-img"><img src={img} alt=""/></div>
                     <div className="extended-desc">{desc}</div>
+                    <div className='extended-time'>Time: {time}</div>
+                    <div className='extended-date'>Date: {date}</div>
+                    <div className='extended-venue'>Venue: {venue}</div>
+                    <div className='extended-fee'>Fee: {fee}</div>
+                    <div className='extended-button-container'>
+                        <a href={link}>
+                        <button className='extended-button'>Register</button>
+                        </a>
+                    </div>
                 </div>
             </div>):<></>}
             <div onClick={() => handleCardClick()}>
             <div className="event-img-small">
-                <img src={eventsImg} alt=""></img>
+                <img src={img} alt=""></img>
             </div>
             <div className="event-title">
                 <span>{title}</span>
