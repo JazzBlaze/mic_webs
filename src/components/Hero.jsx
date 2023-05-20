@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Hero.css';
-import hero_bg from '../images/hero.webp';
+
 import hero_logo from '../images/Microsoft_Logo.png';
 import { Button } from './Button.jsx';
 
@@ -8,7 +8,7 @@ import { Button } from './Button.jsx';
 function Hero() {
     return (
         <>
-        <div className='hero' style={{ backgroundImage: `url(${hero_bg})` }}>
+        <div className='hero ' >
             <div className='container hero-container'>
                 <header className='hero_content'>
                     <h1 className='hero_h1' data-aos="fade-right">Together we learn,</h1>

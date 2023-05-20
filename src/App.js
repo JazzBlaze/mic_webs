@@ -41,8 +41,10 @@ function App() {
     return (
         <>
         <Router>
-            <Navbar />
-            <Hero/>
+            <div className="grad-bg">
+                <Navbar />
+                <Hero/>
+            </div>
             <Intro />
             <Stats />
             <VitCards/>

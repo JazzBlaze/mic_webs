@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import './Navbar.css';
 import logo from "../images/logo.png";
-import bg from '../images/nav_bg.webp';
+
 import { HashLink as Link } from 'react-router-hash-link';
 
 
@@ -12,7 +12,7 @@ function Navbar() {
   const closeMobileMenu=() => setClick(false);
   return (
     <>
-        <nav className="navbar" style={{ backgroundImage: `url(${bg})` }}>
+        <nav className="navbar flex justify-center">
             <div className="navbar-container">
                 <Link to="/" className="navbar-logo">
                     <img src={logo} alt=''/>
