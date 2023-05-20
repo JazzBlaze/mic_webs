@@ -54,7 +54,7 @@ function EventCard(props){
                     <div className='extended-venue'>Venue: {venue}</div>
                     <div className='extended-fee'>Fee: {fee}</div>
                     <div className='extended-button-container'>
-                        <a href={link}>
+                        <a href={link} target='_blank' rel='noreferrer'>
                         <button className='extended-button'>Register</button>
                         </a>
                     </div>

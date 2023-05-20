@@ -19,14 +19,14 @@ const OurTeamDetails = {
         
         {
             Name:"Varshith R P",
-            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978208/IMG_20220810_131231_Bokeh_polarr_2_-_Varshith_R_P_21BRS1366_fju4e0.jpg",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684513345/MIC_Core_images/Board/Varshith.png",
             role:"President",
             quote:"Gregarious!",
             linkedIn:"https://www.linkedin.com/in/varshith-r-p-82ba15234" 
         },
         {
             Name:"Shyam Sundhar G",
-            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671512617/shyam_g7ze3n.jpg",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684513609/MIC_Core_images/Board/Shyam_naj2nb.png",
             role:"Vice President",
             quote:"Work Hard Anywhere",
             linkedIn:"https://www.linkedin.com/in/shyamsundhar2435/" 
@@ -86,285 +86,286 @@ const OurTeamDetails = {
     secretary:[
         {
             Name:"Akilesh S",
-            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978204/8817_-_Copy.JPG_-_Akilesh_S_21MIS1167_pn1phu.jpg",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684513678/MIC_Core_images/Board/Akilesh_h3zs47.png",
             role:"Technical Secretary",
             quote:"Making the World a Better Place ⚡",
             linkedIn:"https://www.linkedin.com/in/akilesh-s-5b4b8374/" 
         },
         {
-            Name:"Anikaet S Irkal",
-            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978207/IMG_20220205_202957_-_Anikaet_Irkal_21BMH1073_nz3a4i.png",
-            role:"Design Secretary",
-            quote:"It takes a lot of balls to golf the way I do.",
+            Name:"Arya Kurade",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684513608/MIC_Core_images/Board/Arya_pbd1oc.png",
+            role:"Management Secretary",
+            quote:"Life is short, so smile while you still have teeth.",
             linkedIn:"https://www.linkedin.com/in/anikaetirkal" 
         },
         {
-            Name:"Arya Kurade",
-            image_url: "",
-            role:"Management Secretary",
-            quote:"Life is short, so smile while you still have teeth.",
+            Name:"Anikaet S Irkal",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684515025/MIC_Core_images/Board/Anikaet_csjerr.png",
+            role:"Content & Design Secretary",
+            quote:"It takes a lot of balls to golf the way I do.",
             linkedIn:"https://www.linkedin.com/in/anikaetirkal" 
         },
     ],
     core:[
         {
             Name:"Deepthi B",
-            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671543627/JointGenSec_ragypk.jpg",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684515003/MIC_Core_images/Board/Deepthi_wkh054.png",
             role:"MLSA Lead",
             quote:"Learn and Explore!",
             linkedIn:"https://www.linkedin.com/in/deepthibalasubramanian" 
         },
         {
             Name:"Tulasi Raman",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514449/MIC_Core_images/Leads/Tulasi_Raman_ppzwhp.png",
             role:"Web dev Lead",
             quote:"Building digital experiences that captivate.",
             linkedIn:"" 
         },
         {
             Name:"Kaifur Rahman",
-            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978207/IMG_1976_-_Kaifur_Rahman_21BRS1147_anhtdh.jpg",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514416/MIC_Core_images/Leads/Kaifur_R_b6o4ir.png",
             role:"Web dev Lead",
             quote:"Positive mindset and enjoys challenges because hardwork never bothers me.",
             linkedIn:"https://www.linkedin.com/in/kaifur-rahman" 
         },
         {
             Name:"Emmanuel Allan",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514415/MIC_Core_images/Leads/Emmanuel_Allan_on0ida.png",
             role:"Web dev Core",
             quote:"Transforming pixels into immersive experiences",
             linkedIn:"https://www.linkedin.com/in/emmanuel-allan/" 
         },
         {
             Name:"Thejas Sanjeev",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514448/MIC_Core_images/Leads/Thejas_Sanjeev_uwjl6c.png",
             role:"Web dev Core",
             quote:"Design and code blended into web experiences.",
             linkedIn:"https://www.linkedin.com/in/" 
         },
         {
             Name:"Adithya R",
-            image_url:"", 
+            image_url:"https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514409/MIC_Core_images/Leads/Adithya_R_vcrknd.png", 
             role:"Web dev Core",
             quote:"Sculpting the web with precision.",
             linkedIn:"https://www.linkedin.com/in/adithya-r-56891221a/" 
         },
         {
             Name:"Samarth Asthan",
-            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978204/52A1F80B-C262-4FE2-8390-32AD787D714B_-_Samarth_Asthan_21BRS1248_i96emj.jpg",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514891/MIC_Core_images/Leads/Samarth_ktzc3o.png",
             role:"App dev Lead",
-            quote:"Progressive, Quick Learner and Versatile in New Technologies",
+            quote:"Progressive, Quick Learner and Versatile in New Technologies.",
             linkedIn:"https://www.linkedin.com/in/samarthasthan/" 
         },
         {
             Name:"Shalini Banerjee",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514441/MIC_Core_images/Leads/Shalini_jzzwzc.png",
             role:"App dev Lead",
             quote:"Building apps that redefine possibilities.",
             linkedIn:"https://www.linkedin.com/in/shalini-banerjee-6a3091230/" 
         },
         {
             Name:"Ishwarya",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514429/MIC_Core_images/Leads/Ishwarya_c1lyhk.png",
             role:"App dev Core",
             quote:"Captivate,Inspire to breathe life into apps.",
             linkedIn:"https://www.linkedin.com/in/ishwarya-devanathan/" 
         },
         {
             Name:"Rishabh Kumar Sharma",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514448/MIC_Core_images/Leads/Rishab_saakdl.png",
             role:"App dev Core",
             quote:"Coding by combinig innovation and functionality.",
             linkedIn:"https://www.linkedin.com/in/rishabh-sharma2002/" 
         },
         {
             Name: "A.J.R. Uttam",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514449/MIC_Core_images/Leads/Uttam_ttcg8n.png",
             role: "Competitive Programming Lead",
             quote: "Wisdom is in patience and hope!",
             linkedIn: "https://www.linkedin.com/in/jayaratnauttam-appana-148562239"
         },
         {
             Name: "Rahan S",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514430/MIC_Core_images/Leads/Rahan_j8snjh.png",
             role: "Competitive Programming Lead",
             quote: "Sharpen skills, embrace challenge, conquer coding arena.",
-            linkedIn: ""
+            linkedIn: "https://in.linkedin.com/in/rahan-shankar-07a4501b2"
         },
         {
             Name: "Riya Sharma",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514439/MIC_Core_images/Leads/Riya_Sharma_duaywm.png",
             role: "Competitive Programming Core",
             quote: "Let the thrill of competition fuel your coding path.",
             linkedIn: "https://www.linkedin.com/in/riyasharma27"
         },
         {
             Name:"Nalin Iyer",
-            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978205/IMG-20220610-WA0017_-_Nalin_Iyer_21BRS1631_tqnrdf.jpg",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514431/MIC_Core_images/Leads/Nalin_bikzm6.png",
             role:"Cybersecurity, Technical Lead",
             quote:"Trust no one, verify everything.",
             linkedIn:"https://www.linkedin.com/in/nalin-iyer" 
         },
         {
             Name:"Marian George",
-            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978205/id_pic_-_Marian_George_21BAI1726_uq2rhr.jpg",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514420/MIC_Core_images/Leads/Marian_wfhce8.png",
             role:"Cyber Security Lead",
             quote:"Nothing is apparent.",
             linkedIn:"https://www.linkedin.com/in/marian-george-718bb6219" 
         },
         {
             Name: "Riyaz",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514892/MIC_Core_images/Leads/Riyaz_duigau.png",
             role: "Cyber Security Core",
             quote: "Time determines Security.",
             linkedIn: ""
         },
         {
             Name: "Shashannk",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514434/MIC_Core_images/Leads/Shashank_emetjx.png",
             role: "Management Lead",
             quote: "Real Management is developing people's work.",
             linkedIn: "http://www.linkedin.com/in/shashannk-s-316a06236"
         },
         {
             Name: "Ravi Teja K",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514438/MIC_Core_images/Leads/Ravi_Teja_oieizj.png",
             role: "Management Lead",
             quote: "Management is efficiency in climbing ladder.",
             linkedIn: "https://www.linkedin.com/in/ravi-teja-1b70b2250"
         },
         {
             Name: "Dharshini",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514423/MIC_Core_images/Leads/Dharshini_c7cuus.png",
             role: "Management Core",
             quote: "Elevating spirit with hope's wings.",
-            linkedIn: ""
+            linkedIn: "https://www.linkedin.com/in/dharshini-ak-80751320b/"
         },
         {
             Name: "Pooja S",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514429/MIC_Core_images/Leads/Pooja_S_olkzu3.png",
             role: "Management Core",
             quote: "Teamwork makes the dream work.",
-            linkedIn: ""
+            linkedIn: "https://www.linkedin.com/in/pooja-saravanan-257184191/"
         },
         {
             Name: "Vicky",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514673/MIC_Core_images/Leads/vicky_kgzhqg.png",
             role: "Management Core",
             quote: "Unifying vision, empowering teams.",
-            linkedIn: ""
+            linkedIn: "https://www.linkedin.com/in/vignesh-v-01b16523a/"
         },
         {
             Name: "Jeevan",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514432/MIC_Core_images/Leads/Jeevan_wpq86z.png",
             role: "Management Core",
             quote: "Collaborative and driven, to add strategic value.",
-            linkedIn: ""
+            linkedIn: "https://www.linkedin.com/in/ramireddy-jeevan-reddy-731a4b233/"
         },
         {
             Name: "Savithri",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514443/MIC_Core_images/Leads/Savithri_j2v5va.png",
             role: "Management Core",
             quote: "Meticulous planners and agile orchestrators.",
-            linkedIn: ""
+            linkedIn: "https://www.linkedin.com/in/savithri-nair-58516b227/"
         },
         {
             Name: "Anuranjan Vikas",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514413/MIC_Core_images/Leads/Anuranjan_dfv3kn.png",
             role: "Design Lead",
             quote: "How About Now? You Still Wired In?",
             linkedIn: "https://www.linkedin.com/in/anuranjan-vikas-134538215"
         },
         {
             Name: "Dharshan S",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514415/MIC_Core_images/Leads/Dharshan_fnocuk.png",
             role: "Design Lead",
             quote: "Efficacious Tech Savvy with Creative Ingenuity",
             linkedIn: "https://www.linkedin.com/in/dharshan-shankar-66b01723a"
         },
         {
             Name: "Shaik Rayyan Ahmed",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514440/MIC_Core_images/Leads/Rayyan_tvaar4.png",
             role: "Design Core",
             quote: "Creativity, purpose coexist.",
-            linkedIn: ""
+            linkedIn: "https://www.linkedin.com/in/rayyan-ahmed-1b1b68243"
         },
         {
             Name: "Harsha Jackson",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514423/MIC_Core_images/Leads/Harsha_vdcchq.png",
             role: "Design Core",
             quote: "Transforming visions into impactful realities.",
-            linkedIn: ""
+            linkedIn: "https://www.linkedin.com/in/harsha-jackson-b33860220"
         },
         {
             Name: "Dharshine",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514415/MIC_Core_images/Leads/Dharshine_qlesmy.png",
             role: "Content Lead",
             quote: "No guts, no glory",
-            linkedIn: ""
+            linkedIn: "https://www.linkedin.com/in/dharshine-babu-ab3022221"
         },
         {
             Name: "Aniketh",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514415/MIC_Core_images/Leads/Aniketh_j8c4tu.png",
             role: "Content Core",
             quote: "When you want something, all the universe conspires in helping you to achieve it",
-            linkedIn: ""
+            linkedIn: "https://www.linkedin.com/in/chigullapallyaniketh-094016220"
         },
         {
             Name: "Jaymin",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514420/MIC_Core_images/Leads/Jaymin_seau0q.png",
             role: "Content Core",
             quote: "Pen down your plan and go hunt them.",
-            linkedIn: ""
+            linkedIn: "https://www.linkedin.com/in/jayminkumar-panchal-750331255"
         },
         {
             Name: "Vamsi M",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514894/MIC_Core_images/Leads/Vamsi_lr0gow.png",
             role: "UI/UX Lead",
             quote: "Create digital interfaces to give visual treat..",
             linkedIn: "https://www.linkedin.com/in/vamsimullapudi/"
         },
         {
             Name:"S Tejas Krishna",
-            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978205/IMG-20221224-WA0000_-_Tejas_Krishna_S_21BCE1417_teooqr.jpg",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514448/MIC_Core_images/Leads/Tejas_Krishna_zpmeu1.png",
             role:"Sponsorship Lead",
             quote:"Quality never goes out of style",
             linkedIn:"http://www.linkedin.com/in/tejas-krishna-886812224" 
         },
         {
             Name:"Sahil Sharma",
-            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978209/Screenshot_2022_0925_212931_-_Sahil_Sharma_21BLC1414_aavgjj.jpg",
+            //image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978209/Screenshot_2022_0925_212931_-_Sahil_Sharma_21BLC1414_aavgjj.jpg",
+            image_url: "",
             role:"Photography Lead",
             quote:"Discover the world throug lens!",
             linkedIn:"https://www.linkedin.com/in/sahil-sharma-885b04225" 
         },
         {
             Name:"Anadi Goswami",
-            image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978204/75F8BC52-02BE-441B-9FF5-54EF5A99C305_-_Anadi_Goswami_21BCE5340_uvz4yy.jpg",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514409/MIC_Core_images/Leads/ANADI_GOSWAMI_jenb3l.png",
             role:"Video Editing Lead",
             quote:"Nostalgia was better when I was growing up.",
             linkedIn:"https://www.linkedin.com/in/anadi-goswami-6326b3234" 
         },
         {
             Name: "Navyansh",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514894/MIC_Core_images/Leads/Navyansh_ocyshr.png",
             role: "Social Media Lead",
             quote: "Spark connections to leave a digital legacy.",
-            linkedIn: ""
+            linkedIn: "https://www.linkedin.com/in/navyansh-kothari-579000221"
         },
         {
             Name: "Thanshita",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514893/MIC_Core_images/Leads/Thanshita_hgvctu.png",
             role: "Social Media Lead",
             quote: "Building virtual communities, fostering real connections",
-            linkedIn: ""
+            linkedIn: "https://www.linkedin.com/in/thanshita-bharathi-269339220/"
         },
         {
             Name: "Tushar",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514929/MIC_Core_images/Leads/Tushar_hsorrz.png",
             role: "Social Media Lead",
             quote: "Empowering digital networking",
-            linkedIn: ""
+            linkedIn: "https://www.linkedin.com/in/tushar-rohillah"
         },
         {
             Name: "Ankith M",
@@ -375,7 +376,7 @@ const OurTeamDetails = {
         },
         {
             Name: "Joshua",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514428/MIC_Core_images/Leads/Joshua_gxxifo.png",
             role: "AI/ML Core",
             quote: "ML unveils insights to shape a smarter world.",
             linkedIn: "https://www.linkedin.com/in/jesherjoshua/"
