@@ -15,13 +15,14 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: baseline;
+    justify-content: center;
 }
 
 .event-card{
     cursor: pointer;
     box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
-    height: 150px;
-    width: 130px;
+    height: 300px;
+    width: 260px;
     padding: 15px;
     align-items: center;
     margin: 7px;
@@ -41,13 +42,14 @@
 }
 
 .event-img-small{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 220px;
+    margin: auto;
 }
 
 .event-img-small > img{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 220px;
     border-radius: 20%;
 }
 
@@ -56,13 +58,24 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 50vh;
     width: 70%;
+    height: 600px;
     background-color: white;
     box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
     border-radius: 30px;
     display: flex;
     align-items: center;
+}
+
+ .extended-button-container, .extended-date, .extended-venue, .extended-fee{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 2rem;
+}
+.extended-time{
+    padding-top: 5px;
+    padding-bottom: 2px;
+    font-size: 2rem;
 }
 
 .close-button{
@@ -76,15 +89,21 @@
     width: 20px;
 }
 
+.extended-button{
+    background: blueviolet;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+}
+
 .extended-img{
-    height: 40vh;
+    height: 50vh;
     margin: 30px;
 }
 
 .extended-img > img{
-    height: 40vh;
+    height: 50vh;
     aspect-ratio: 1;
-    border-radius: 20px;
 }
 .extended-content{
     display: flex;
@@ -93,6 +112,7 @@
     justify-content: baseline;
     width: 50%;
     margin: auto;
+    padding-right: 30px;
 }
 .extended-title{
     font-size: 3rem;
@@ -105,11 +125,9 @@
 }
 .extended-mobile-img{
     display: none;
-    width: 70%;
+    width: 60%;
 }
-.extended-mobile-img > img{
-    border-radius: 18px;
-}
+
 
 @media only screen and (max-width: 768px){
     .extended-img{
@@ -119,16 +137,18 @@
         display: block;
     }
     .extended-card{
-        height: 80vh;
+        width: 90%;
+        height: 900px;
     }
     .extended-content{
         width: 100%;
-        margin: auto;
+        margin-top: 40px;
     }
     .extended-desc{
         padding: 20px;
     }
     .close-button{
+        
         left: 91%;
         top: -45%;
     }
