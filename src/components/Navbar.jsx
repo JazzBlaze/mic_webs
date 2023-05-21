@@ -14,12 +14,14 @@ function Navbar() {
     <>
         <nav className="navbar flex justify-center">
             <div className="navbar-container">
-                <Link to="/" className="navbar-logo">
-                    <img src={logo} alt=''/>
-                </Link>
-                
-                <div className='menu-icon' onClick={handleClick}>
-                  <iconify-icon  icon={click ? 'line-md:menu-to-close-alt-transition':'line-md:close-to-menu-transition'} width="30" height="30" ></iconify-icon>
+                <div className='flex justify-between w-[100vw] lg:w-max px-[10px]'>
+                  <Link to="/" className="navbar-logo">
+                      <img src={logo} alt=''/>
+                  </Link>
+                  
+                  <div className='visible lg:collapse' onClick={handleClick}>
+                    <iconify-icon  icon={click ? 'line-md:menu-to-close-alt-transition':'line-md:close-to-menu-transition'} width="30" height="30" ></iconify-icon>
+                  </div>
                 </div>
                 <ul className={click ? 'nav-menu active': 'nav-menu'}>
                   <li className='nav-item'>
