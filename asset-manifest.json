@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.196ac7d2.css",
+    "main.js": "/static/js/main.370bc933.js",
+    "static/media/loading.gif": "/static/media/loading.c53f7826df4fbd9ce46c.gif",
+    "static/media/Full stack dev nextjs.jpg": "/static/media/Full stack dev nextjs.c57935acc319e425fe46.jpg",
+    "static/media/SFProDisplay-Light.woff": "/static/media/SFProDisplay-Light.e91a5798f58164838527.woff",
+    "static/media/SFPRODISPLAYBOLD.woff": "/static/media/SFPRODISPLAYBOLD.c3b69f8f2f19ee996e54.woff",
+    "static/media/SFPRODISPLAYREGULAR.woff": "/static/media/SFPRODISPLAYREGULAR.eebebf6e9b5017d9771f.woff",
+    "static/media/emoji.png": "/static/media/emoji.7ab0ce71a0e42d24cf85.png",
+    "static/media/Microsoft_Logo.png": "/static/media/Microsoft_Logo.ebc6a6ddc3a524e52bd4.png",
+    "static/media/vit_logo.png": "/static/media/vit_logo.7ebb33940ddf860afa24.png",
+    "static/media/logo.png": "/static/media/logo.8cb717948d7f26094edf.png",
+    "static/media/baseline-discord.svg": "/static/media/baseline-discord.e18dd45bbcb0c2b4046803252fb0286a.svg",
+    "static/media/instagram-filled.svg": "/static/media/instagram-filled.79fbf4aa34098ccd8c78b8f8af8eed9c.svg",
+    "index.html": "/index.html",
+    "static/media/location-on.svg": "/static/media/location-on.096140a9fa5e6f068756470b4347d60e.svg",
+    "static/media/round-mail.svg": "/static/media/round-mail.cbcc83db9011fed8e4792f14b21f8053.svg",
+    "static/media/close.svg": "/static/media/close.78ddfc952923e4c4c483c122f935159c.svg",
+    "main.196ac7d2.css.map": "/static/css/main.196ac7d2.css.map",
+    "main.370bc933.js.map": "/static/js/main.370bc933.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.196ac7d2.css",
+    "static/js/main.370bc933.js"
+  ]
+}
