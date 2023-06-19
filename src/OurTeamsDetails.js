@@ -300,7 +300,7 @@ const OurTeamDetails = {
             Name: "Dharshine",
             image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1684514415/MIC_Core_images/Leads/Dharshine_qlesmy.png",
             role: "Content Lead",
-            quote: "No guts, no glory",
+            quote: "No risk, no rewards",
             linkedIn: "https://www.linkedin.com/in/dharshine-babu-ab3022221"
         },
         {
