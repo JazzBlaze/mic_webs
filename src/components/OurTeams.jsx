@@ -13,7 +13,7 @@ const OurTeam = () => {
                         
                         <div className="hover:-translate-y-1 hover:scale-110 duration-300 flex justify-center min-w-[350px] w-[350px] gap-8 rounded-[30px] p-[1%] shadow-[0_3px_20px_0px_rgba(0,0,0,0.2)]" onClick={() => (window.open(OurTeamDetails.secretary[0].linkedIn, '_blank'))} >
                             <div className="w-[35%] flex self-center">
-                                <img className="w-[100%] rounded-full" src={OurTeamDetails.faculty[0].image_url} alt="Associate proffesor" />
+                                <ReactImageFallback className="w-[100%] rounded-full" src={OurTeamDetails.faculty[0].image_url} initialImage={Loading} fallbackImage = {MicLogo} alt="Associate proffesor" />
                             </div>
                             <div className="w-[70%]">
                                 <h4>{OurTeamDetails.faculty[0].Name}</h4>
@@ -26,7 +26,7 @@ const OurTeam = () => {
 
                         <div className="hover:-translate-y-1 hover:scale-110 duration-300 flex justify-center min-w-[350px] w-[350px] gap-8 rounded-[30px] p-[1%] shadow-[0_3px_20px_0px_rgba(0,0,0,0.2)]" onClick={() => (window.open(OurTeamDetails.secretary[0].linkedIn, '_blank'))} >
                             <div className="w-[35%] flex self-center">
-                                <img className="w-[100%] rounded-full" src={OurTeamDetails.faculty[1].image_url} alt="Associate proffesor" />
+                                <ReactImageFallback className="w-[100%] rounded-full" src={OurTeamDetails.faculty[1].image_url} initialImage={Loading} fallbackImage = {MicLogo} alt="Associate proffesor" />
                             </div>
                             <div className="w-[70%]">
                                 <h4>{OurTeamDetails.faculty[1].Name}</h4>
