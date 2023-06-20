@@ -5,14 +5,14 @@ const OurTeamDetails = {
             image_url:"https://res.cloudinary.com/dsolrmyfj/image/upload/v1671513174/Fac_srhdnx.png",
             role:"Associate Professor",
             quote:"Computer Science professor at VIT Chennai. PhD from VIT Vellore in network security. She loves preparing club members for their futures.",
-            linkedIn:"",
+            linkedIn:"https://www.linkedin.com/in/anusha-kannan-19a6a84a/",
         },
         {
             Name:"Dr. Braveen M",
             image_url:"https://res.cloudinary.com/dsolrmyfj/image/upload/v1672067311/WhatsApp_Image_2022-12-26_at_8.24.19_PM_n5qwvu.jpg",
             role:"Associate Professor",
             quote:"As the mentor and faculty coordinator for the club, Sir is dedicated to guiding and supporting the next generation of leaders.",
-            linkedIn:"",
+            linkedIn:"https://www.linkedin.com/in/braveen-manimozhi-916245bb/",
         },
     ],
     president:[
@@ -334,7 +334,7 @@ const OurTeamDetails = {
         {
             Name:"Sahil Sharma",
             //image_url: "https://res.cloudinary.com/dsolrmyfj/image/upload/v1671978209/Screenshot_2022_0925_212931_-_Sahil_Sharma_21BLC1414_aavgjj.jpg",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1687283849/MIC_Core_images/Leads/Sahil_sharma_photography_lead.jpg",
             role:"Photography Lead",
             quote:"Discover the world throug lens!",
             linkedIn:"https://www.linkedin.com/in/sahil-sharma-885b04225" 
@@ -369,7 +369,7 @@ const OurTeamDetails = {
         },
         {
             Name: "Ankith M",
-            image_url: "",
+            image_url: "https://res.cloudinary.com/dbw3mafjr/image/upload/v1687284289/MIC_Core_images/Leads/ankit_motha_ai_ml_lead.png",
             role: "AI/ML Lead",
             quote: "Let's reshape the world, unlock new possibilities with AI.",
             linkedIn: "https://www.linkedin.com/in/ankithmotha/"
